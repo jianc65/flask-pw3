@@ -118,7 +118,7 @@ class Model(with_metaclass(BaseSignalModel, pw.Model)):
     @property
     def pk(self):
         """Return primary key value."""
-        return self._get_pk_value()
+        return self.pk
 
     @classmethod
     def get_or_none(cls, *args, **kwargs):

@@ -22,9 +22,9 @@ install_requires = [
     if l and not l.startswith('#') and not l.startswith('-')]
 
 setup(
-    name=_project,
-    version=_version,
-    license=_license,
+    name="Flask_PW3.1",
+    version="0.0.1",
+    license="",
     description='Peewee ORM integration for Flask framework',
     long_description_content_type='text/x-rst',
     long_description=_read('README.rst'),
@@ -33,7 +33,7 @@ setup(
 
     author='Keigo Hattori',
     author_email='keigoht@gmail.com',
-    url='https://github.com/keigohtr/flask-pw3',
+    url='https://github.com/jianc65/flask-pw3',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
